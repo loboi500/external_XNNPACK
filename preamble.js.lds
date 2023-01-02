@@ -1,9 +1,3 @@
-/*
- * Copyright 2019 Google LLC
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/* mock crypto module for benchmarks and unit tests or std::random_device fails at runtime */
-var crypto = { getRandomValues: function(array) { for (var i = 0; i < array.length; i++) array[i] = (Math.random()*256)|0 } };
+version https://git-lfs.github.com/spec/v1
+oid sha256:c44ec98e9b69e77e24269bc47f48603b0fc7d028a092f4cd760d5ee5c8afdbad
+size 393
